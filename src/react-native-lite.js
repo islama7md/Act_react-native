@@ -17,6 +17,7 @@ export const Text = ({ style, children, className = '', ...props }) => {
   );
 };
 
+
 export const TouchableOpacity = ({ style, onPress, children, className = '' }) => {
   return React.createElement(
     'div',
